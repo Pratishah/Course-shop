@@ -1,0 +1,12 @@
+
+
+ <div class="d-flex  bg-light mb-3 row">
+   <div class><img src="imageUrl" alt="j" style="max-height: 10px; "></div>
+  <div class="p-2 col-4 flex-fill bg-light" >{{ productItem.description | slice: 0:80 }}...</div>
+  <div class="p-2 col-2 flex-fill bg-light">{{productItem.author}} </div>
+  <div class="p-2 col-1 flex-fill bg-light" > <i *ngIf="addedToWishlist" class="fas fa-heart float-right" (click)="handleRemoveFromWishlist()"></i>
+    <i *ngIf="!addedToWishlist" class="col-1 flex-fill far fa-heart float-right" (click)="handleAddToWishlist()"></i></div>
+  <div class="p-2 flex-fill bg-light"><strong>{{ productItem.price | currency:'INR' }}</strong></div>
+   <div class="p-2 col-2 flex-fill bg-light"> <button type="button" class="btn btn-sm btn-warning product-btn"   (click)="handleAddToCart()">Add to Cart</button></div>
+  <div class=" col-1 p-2 flex-fill bg"> <span  class="right-arrow"><i class="fas fa-chevron-right"></i></span></div>
+</div>

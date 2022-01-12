@@ -1,0 +1,11 @@
+.d-flex button{
+
+  background-color:#FF5733 ;
+  color: white;
+  border-radius: 6px;
+}
+
+#total {
+  background-color:tomato;
+  border-radius: 25px;
+}

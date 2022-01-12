@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-12" *ngFor="let product of productList | paginate:{ itemsPerPage: 8, currentPage: pol }">
+    <app-product-item [productItem]="product" [addedToWishlist]="wishlist.indexOf(product.id) >= 0"></app-product-item>
+  </div>
+</div>
+
+<pagination-controls
+(pageChange)="pol = $event"
+class="float-left">
+</pagination-controls>
+
+<!-- <div *ngFor="let d of data | paginate:
+ { itemsPerPage: 4, currentPage: p }" >
+  <p>"userId" = {{ d.userId }}</p>
+  <p>"id" = {{ d.id }}</p>
+  <p>"title" = {{ d.title }}</p>
+  <p>"completed" = {{ d.completed }}
+  </p>
+  <hr>
+</div>
+<pagination-controls
+(pageChange)="p = $event"
+class="float-right">
+</pagination-controls> --!-->

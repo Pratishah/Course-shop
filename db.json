@@ -1,0 +1,118 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "description": "Angualr course for beginner",
+      "author": "Robil Karl",
+      "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "name": "React Tutorial",
+      "description": "React for beginners,",
+      "author": "Janny Dahl",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+      "price": 199
+    },
+    {
+      "id": 3,
+      "name": "Javascript",
+      "description": "javascript full tutorial",
+      "author": "Robert Kinaal",
+      "imageUrl": "",
+      "price": 399
+    },
+    {
+      "id": 4,
+      "name": "Bootstrap",
+      "description": "Bootstrap tutorials",
+      "author": "Jonhson k Henry",
+      "imageUrl": "",
+      "price": 499
+    },
+    {
+      "id": 5,
+      "name": "Html",
+      "description": "full tutorial for web Design",
+      "author": "Sneja Nupur",
+      "imageUrl": "",
+      "price": 149
+    },
+    {
+      "id": 6,
+      "name": "basics of web",
+      "description": "full tutorial for web Design",
+      "author": "Sneja Nupur",
+      "imageUrl": "",
+      "price": 150
+    },
+    {
+      "id": 7,
+      "name": "html5",
+      "description": "full tutorial for web Design",
+      "author": "Sneja Nupur",
+      "imageUrl": "",
+      "price": 299
+    },
+    {
+      "id": 8,
+      "name": "JavaScript",
+      "description": "full tutorial for javascript",
+      "author": "Sneja Nupur",
+      "imageUrl": "",
+      "price": 449
+    },
+    {
+      "id": 9,
+      "name": "Java",
+      "description": "full tutorial for java",
+      "author": "Sneja jal",
+      "imageUrl": "",
+      "price": 99
+    },
+    {
+      "id": 10,
+      "name": "C#",
+      "description": "full tutorial for web Dev",
+      "author": " Nupur",
+      "imageUrl": "",
+      "price": 199
+    },
+    {
+      "id": 11,
+      "name": "React-js",
+      "description": "learn react in 3 hrs",
+      "author": "Sneja Nupur",
+      "imageUrl": "",
+      "price": 299
+    },
+    {
+      "id": 12,
+      "name": "Angular 12",
+      "description": "frontend web framework",
+      "author": "Sneja Nupur",
+      "imageUrl": "",
+      "price": 499
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "name": "React Tutorial",
+        "description": "React for beginners,",
+        "author": "Janny Dahl",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 199
+      },
+      "id": 1
+    }
+  ]
+}
